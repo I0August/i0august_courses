@@ -16,7 +16,7 @@ By the end of this lecture, students should be able to:
 
 ---
 
-## Thermodynamic Methods for Pure Components
+## 1.Thermodynamic Methods for Pure Components
 
 Thermodynamic methods are the tools we use to calculate thermodynamic properties and phase-equilibrium behavior from equations of state and property models.
 
@@ -42,7 +42,7 @@ Together, the equation of state and thermodynamic property models form what we w
 
 In other words, a thermodynamic method provides a systematic way to calculate thermodynamic properties from known process conditions.
 
-## Equations of State
+## 2.Equations of State
 
 An **equation of state** (EOS) is a mathematical relationship between pressure $P$, molar volume $v$, and temperature $T$. It describes how these measurable properties are related for a given substance.
 
@@ -60,7 +60,7 @@ $$
 
 Both forms describe the same physical relationship, but they may be more or less convenient depending on the calculation.
 
-## Ideal-Gas Law
+### Ideal-Gas Law
 
 The simplest equation of state is the **ideal-gas law**:
 
@@ -108,7 +108,7 @@ Both of these conditions lead to behavior that closely follows the ideal-gas law
 </details>
 :::
 
-## Real-Fluid Models
+### Real-Fluid Models
 
 Real fluids do not always behave like ideal gases. Molecules occupy finite volume, and they interact with one another through attractive and repulsive forces.
 
@@ -141,7 +141,7 @@ Common equations of state used to model real fluids include:
 
 In this course, we will focus mainly on **cubic equations of state**, since they are practical, widely used, and suitable for many process-simulation calculations.
 
-## Cubic Equations of State
+## 3.Cubic Equations of State
 
 Cubic equations of state are important in process simulation because they can describe both liquid and vapor phases using a single equation. They can also represent vapor-liquid equilibrium, the two-phase region, and critical behavior.
 
